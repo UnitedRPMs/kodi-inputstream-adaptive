@@ -9,7 +9,7 @@
 %global __requires_exclude_from %{_datadir}/kodi/addons/%{realname}
 
 Name:           kodi-inputstream-adaptive
-Version:        2.4.3
+Version:        2.4.4
 
 Release:        7%{?dist}
 Summary:        InputStream client for adaptive streams for Kodi 18+
@@ -51,6 +51,9 @@ sed -i 's|special://home/cdm|%{_libdir}/kodi/addons/inputstream.adaptive|g' "%{b
 %{_datadir}/kodi/addons/%{realname}/
 
 %changelog
+
+* Thu Apr 09 2020 Unitedrpms Project <unitedrpms AT protonmail DOT com> 2.4.4-7
+- Updated to 2.4.4
 
 * Sat Mar 21 2020 Unitedrpms Project <unitedrpms AT protonmail DOT com> 2.4.3-7
 - Updated to 2.4.3
